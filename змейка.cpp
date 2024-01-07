@@ -43,7 +43,7 @@ int main() {
     srand(time(NULL));
 
     HWND hwnd = GetConsoleWindow();
-    if (hwnd != NULL) {                                                         //чистим мусор с экрана
+    if (hwnd != NULL) {                                                         
         MoveWindow(hwnd, 300, 300, 800, 800, TRUE);
     }
 
