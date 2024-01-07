@@ -97,11 +97,11 @@ int main() {
     }
 
     for (int DurationRef = 0; Lose == false ; DurationRef++) {                  // игра
-
+        
         Sleep(Duration);                                                        // спим?
 
-        if (DurationRef == SizeFiedGame+25) {                                              //спавн очков
-            DurationRef -= SizeFiedGame+25;
+        if (DurationRef == 80) {                                              //спавн очков
+            DurationRef -= 80;
 
             for ( ; ; ) {
                 int randomPoint = rand() % (SizeFiedGame * SizeFiedGame * 2);
